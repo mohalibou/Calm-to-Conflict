@@ -134,8 +134,8 @@ PartBody→ Bod×SelfBody ──────────────────
 |------|----------|-------|-----|
 | `text_sequences_v1.pt` | Text (transcripts) | EmoRoBERTa | 768 |
 | `audio_sequences_v2.pt` | Prosody | HuBERT-ER | 768 |
-| `video_self_sequences_v1.pt` | Speaker visual | OpenFace / MediaPipe | 92 |
-| `video_partner_sequences_v1.pt` | Partner visual | OpenFace / MediaPipe | 92 |
+| `video_self_sequences_v1.pt` | Speaker visual | From SEAMLESS | 92 |
+| `video_partner_sequences_v1.pt` | Partner visual | From SEAMLESS | 92 |
 
 Visual stream breakdown (92-dim total): FAU (0:24) · Head orientation (24:27) · Gaze (27:29) · Body pose (29:92).
 
