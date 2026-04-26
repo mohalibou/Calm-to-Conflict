@@ -17,7 +17,8 @@ FINAL/
 │   ├── sec4_fusion.py          # Section 4 — audio + FAU fusion (2 & 3-stream)
 │   └── sec5_fusion.py          # Section 5 — audio + FAU + body fusion (5-stream)
 ├── Plots/                      # Training curves & confusion matrices 
-└── results/                    # Per-experiment JSON result files 
+└── results_summary.csv         # Summary of results for all 22 experiments  
+└── master_results.json         # Per-experiment JSON result files 
 ```
 
 ---
