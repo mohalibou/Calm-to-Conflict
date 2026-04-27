@@ -8,7 +8,7 @@ Utterance-level conflict onset prediction in dyadic video interactions using a c
 
 ```
 Calm-To-Conflict/
-├── MulT.ipynb                  # Full pipeline — read this first
+├── MulT.ipynb                  # Multimodal Transformer Model — read this first
 ├── hpc_scripts/                # SLURM-ready scripts executed on USC HPC
 │   ├── run_all_ablations.sh    # SLURM array job dispatcher (22 experiments)
 │   ├── shared_utils.py         # Shared imports, primitives, and helpers
@@ -17,8 +17,8 @@ Calm-To-Conflict/
 │   ├── sec4_fusion.py          # Section 4 — audio + FAU fusion (2 & 3-stream)
 │   └── sec5_fusion.py          # Section 5 — audio + FAU + body fusion (5-stream)
 ├── Plots/                      # Training curves & confusion matrices 
-├── results_summary.csv         # Summary of results for all 22 experiments  
-└── master_results.json         # Per-experiment JSON result files 
+├── results_summary.csv         # Summary of results for all 22 experiments on MulT  
+└── master_results.json         # Per-experiment JSON result files for MulT
 ```
 
 ---
