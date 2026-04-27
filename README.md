@@ -25,7 +25,7 @@ Calm-To-Conflict/
 
 ## MulT.ipynb — The Full Pipeline
 
-The notebook is the canonical, readable version of the entire project. All five sections run end-to-end in a single file.
+The notebook is the canonical, readable version of the entire MulT model. All five sections run end-to-end in a single file.
 
 | Section | What it does |
 |---------|-------------|
@@ -42,7 +42,7 @@ Every section follows the same structure: **Dataset → MixUp → Model → Trai
 
 ## HPC Scripts — `hpc_scripts/`
 
-The scripts in `hpc_scripts/` are the production version of the notebook, refactored for parallel execution on the **USC CARC HPC cluster** (Partition: `gpu`, GPU: A40).
+The scripts in `hpc_scripts/` are the production version of the MulT notebook, refactored for parallel execution on the **USC CARC HPC cluster** (Partition: `gpu`, GPU: A40).
 
 ### Why separate scripts?
 
