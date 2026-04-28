@@ -54,7 +54,7 @@ Calm-To-Conflict/
 
 ## MulT.ipynb
 
-The canonical, readable version of the full MulT pipeline. Five sections run end-to-end.
+Readable version of the full MulT pipeline. Five sections run end-to-end.
 
 | Section | Description |
 |---------|-------------|
