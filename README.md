@@ -187,9 +187,16 @@ Result JSON format:
 
 ## Environment
 
-Cluster: **USC CARC** · Partition: `gpu` · GPU: `A40` · Conda env: `calm_conflict`
+Cluster: **USC CARC** · Partition: `gpu` · GPU: `A40` · Python: `3.11` · CUDA: `11.8`
 
 ```bash
+# Create environment
+conda env create -f environment.yml
+
+# Activate
 module load conda
-source activate calm_conflict
+conda activate calm_conflict
+
+Key dependencies: `torch==2.5.1+cu121`, `transformers==5.2.0`, `librosa==0.11.0`, `google-genai==1.70.0`, `seamless-interaction`
+
 ```
