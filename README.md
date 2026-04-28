@@ -8,7 +8,7 @@ Utterance-level conflict onset prediction in dyadic video interactions. This rep
 
 ```
 Calm-To-Conflict/
-├── MulT.ipynb                  # Multimodal Transformer — start here
+├── MulT.ipynb                  # Multimodal Transformer
 ├── hpc_scripts/
 │   ├── run_all_ablations.sh    # SLURM array job dispatcher (22 experiments)
 │   ├── shared_utils.py         # Shared imports and model primitives
