@@ -16,10 +16,10 @@ Calm-To-Conflict/
 │   ├── sec3_visual.py          # Visual sub-feature ablation
 │   ├── sec4_fusion.py          # Audio + FAU fusion (2 & 3-stream)
 │   └── sec5_fusion.py          # Audio + FAU + body fusion (5-stream)
-├── Plots/                      # Training curves & confusion matrices
-├── results/                    # Per-experiment JSON results for MulT
-├── results_summary.csv         # Summary of results for all 22 MulT experiments
-└── master_results.json         # Combined per-experiment JSON results for MulT
+├── MulT_Plots/                      # Training curves & confusion matrices
+├── MulT_results/                    # Per-experiment JSON results for MulT
+├── Mult_results_summary.csv         # Summary of results for all 22 MulT experiments
+└── MulT_master_results.json         # Combined per-experiment JSON results for MulT
 ```
 
 ---
