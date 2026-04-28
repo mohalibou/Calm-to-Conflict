@@ -187,7 +187,7 @@ Result JSON format:
 
 ## Environment
 
-Cluster: **USC CARC** · Partition: `gpu` · GPU: `A40` · Python: `3.11` · CUDA: `11.8`
+Cluster: **USC CARC** · Partition: `gpu` · GPU: `A40` · Python: `3.11` · CUDA: `12.1`
 
 ```bash
 # Create environment
