@@ -189,8 +189,13 @@ Result JSON format:
 
 Cluster: **USC CARC** · Partition: `gpu` · GPU: `A40` · Python: `3.11` · CUDA: `12.1`
 
+**Key Dependencies:**
+`torch==2.5.1+cu121` | `transformers==5.2.0` | `librosa==0.11.0` | `seamless-interaction`
+
+**Setup Instructions:**
+
 ```bash
-# 1. Load Conda 
+# 1. Load Conda on the cluster
 module load conda
 
 # 2. Create the environment
@@ -198,7 +203,4 @@ conda env create -f environment.yml
 
 # 3. Activate the environment
 conda activate calm_conflict
-
-Key dependencies: `torch==2.5.1+cu121`, `transformers==5.2.0`, `librosa==0.11.0`, `google-genai==1.70.0`, `seamless-interaction`
-
 ```
